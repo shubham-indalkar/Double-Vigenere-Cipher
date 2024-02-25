@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Double Vigenère Cipher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas></canvas>
+
+  <h1>Double Vigenère Cipher</h1>
+
+  <div class="container">
+    <div id="input-container">
+      <label for="input">Input:</label>
+      <textarea id="input" rows="4" cols="80"></textarea>
+    </div>
+
+    <div class="keywords">
+      <div>
+        <label for="keyword1">Enter Keyword 1:</label>
+        <input type="text" id="keyword1">
+      </div>
+      <div>
+        <label for="keyword2">Enter Keyword 2:</label>
+        <input type="text" id="keyword2">
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <label for="action">Action:</label>
+      <select name="action" id="action">
+        <option value="encrypt">Encrypt</option>
+        <option value="decrypt">Decrypt</option>
+      </select>
+    </div>
+
+    <button id="action-button">Encrypt Text</button>
+
+    <div id="output-container">
+      <label for="output">Output:</label>
+      <textarea id="output" rows="4" cols="80" readonly></textarea>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
