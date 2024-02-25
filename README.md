@@ -1,1 +1,1 @@
-A website made using HTML, CSS, JS for Double Vinegere Cipher algorightm.
+A website made using HTML, CSS, JS for Double Vigenere Cipher algorightm.
